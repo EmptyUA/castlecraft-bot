@@ -44,7 +44,7 @@ Who built the first castle?
 A) Romans
 B) Knights
 C) Egyptians"
-    )
+    
 
 @dp.message_handler(lambda message: message.text == "Balance")
 async def balance(message: types.Message):
