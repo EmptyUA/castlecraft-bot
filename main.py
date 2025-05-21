@@ -37,7 +37,7 @@ async def my_castle(message: types.Message):
 async def missions(message: types.Message):
     await message.answer_photo(
         photo=InputFile("missions.jpg"),
-        caption="⚔️ Arena Challenge:
+        caption="⚔️ Arena Challenge:"
 
 Who built the first castle?
 
